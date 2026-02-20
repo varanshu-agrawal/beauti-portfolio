@@ -46,9 +46,7 @@ export default function Hero() {
           ref={titleRef}
           className="text-6xl md:text-8xl font-bold tracking-tight leading-tight"
         >
-          NOCTURNAL
-          <br />
-          MOTORS
+          Colorful web experiences for bold brands.
         </h1>
 
         <p

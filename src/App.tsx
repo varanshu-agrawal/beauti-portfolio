@@ -36,9 +36,6 @@ function App() {
       <Garage />
       <Nightlife />
       <Contact />
-
-      {/* extra scroll space for now */}
-      <div className="h-[200vh]" />
     </div>
   )
 }
