@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react"
-import { gsap, ScrollTrigger } from "../utils/gsap"
+import { gsap } from "../utils/gsap"
 
 const projects = [
   {
@@ -82,7 +82,7 @@ export default function Garage() {
       <div className="grid md:grid-cols-3 gap-8">
         {projects.map((p, i) => (
           <div
-            ref={(el) => (cardsRef.current[ i ] = el)}
+            ref={(el) => { cardsRef.current[i] = el; }}
             key={i}
             className="garage-card group relative border border-white/10 rounded-2xl p-8 bg-white/[0.02] backdrop-blur-sm overflow-hidden cursor-pointer"
           >
